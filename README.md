@@ -12,7 +12,7 @@ HTML • CSS • JavaScript
 - Live Demos
 
 ### Live Preview
-[Coming Soon
+[Henok-2026
 ](https://henok-portfolio-2026.vercel.app/)
 ### Author
 Henok
