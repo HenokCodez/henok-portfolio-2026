@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Fullstack & AI Developer - E-commerce, SaaS, and AI Tools specialist. Crafting innovative solutions with cutting-edge technologies.">
+    <meta name="theme-color" content="#000000">
+    <meta name="author" content="Your Name">
+    <title>Fullstack Developer | E-commerce, SaaS & AI Solutions</title>
+    <link rel="canonical" href="https://yourportfolio.com">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Menu (Floating) -->
+    <nav class="floating-nav" id="floatingNav" aria-label="Main navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+            <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            <li>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-section="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Fullstack Developer</h1>
+                <p class="hero-subtitle">Transforming Ideas into Intelligent Solutions</p>
+                <p class="hero-description">
+                    I build scalable e-commerce platforms, innovative SaaS products, and cutting-edge AI tools.
+                    Specializing in fullstack development with expertise in AI integration and training.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="code-line"><span class="code-keyword">const</span> <span
+                            class="code-var">developer</span> = {</div>
+                    <div class="code-line"><span class="code-prop">fullstack:</span> <span
+                            class="code-value">true</span>,</div>
+                    <div class="code-line"><span class="code-prop">aiExpertise:</span> <span
+                            class="code-value">true</span>,</div>
+                    <div class="code-line"><span class="code-prop">passionate:</span> <span
+                            class="code-value">true</span></div>
+                    <div class="code-line">}</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" data-section="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        With a passion for building robust and scalable applications, I combine technical expertise
+                        with creative problem-solving. My focus is on delivering high-performance solutions that
+                        drive business value.
+                    </p>
+                    <p>
+                        I specialize in fullstack development, creating end-to-end solutions that seamlessly integrate
+                        frontend excellence with powerful backend architecture. Recently, I've been diving deep into AI
+                        technologies, including model training and integration into production systems.
+                    </p>
+                </div>
+
+                <div class="skills-container">
+                    <h3>Core Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Frontend</h4>
+                            <ul class="skill-list">
+                                <li>React / Next.js</li>
+                                <li>TypeScript</li>
+                                <li>Tailwind CSS</li>
+                                <li>Web Performance</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Backend</h4>
+                            <ul class="skill-list">
+                                <li>Node.js / Express</li>
+                                <li>PostgreSQL / MongoDB</li>
+                                <li>REST & GraphQL APIs</li>
+                                <li>Cloud Deployment</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>AI & ML</h4>
+                            <ul class="skill-list">
+                                <li>LLM Integration</li>
+                                <li>Model Fine-tuning</li>
+                                <li>Data Processing</li>
+                                <li>AI Training Pipelines</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" data-section="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="Full-Stack Apps">Full-Stack Apps</button>
+                <button class="filter-btn" data-filter="Frontend Websites">Frontend Websites</button>
+                <button class="filter-btn" data-filter="AI Tools">AI Tools</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically loaded from data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" data-section="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-text">
+                    <h3>Have a project in mind?</h3>
+                    <p>
+                        I'm always interested in hearing about new projects and opportunities.
+                        Feel free to reach out if you'd like to collaborate or just want to chat.
+                    </p>
+                </div>
+
+                <div class="contact-methods">
+                    <a href="mailto:henokbinayew21@gmail.com" class="contact-method">
+                        <span class="method-icon">✉️</span>
+                        <span class="method-text">henokbinayew21@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/henok-binayew/" target="_blank" rel="noopener noreferrer"
+                        class="contact-method">
+                        <span class="method-icon">💼</span>
+                        <span class="method-text">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/HenokCodez/" target="_blank" rel="noopener noreferrer"
+                        class="contact-method">
+                        <span class="method-icon">🔗</span>
+                        <span class="method-text">GitHub</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Henok Binayew. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
